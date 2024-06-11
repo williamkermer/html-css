@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+*{
+
+    font-family: 'Abebas';
+
+}
+
+@font-face {
+    font-family: 'Droid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Abebas';
+    src: url(BebasNeue-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+article{
+
+    font-size: 16px;
+
+}
+
+aside{
+
+    font-size: 16px;
+
+}
+
+.centro{
+
+    text-align: center;
+    font-weight: normal;
+}
+
+
+header{
+
+    background-image:linear-gradient(360deg,rgb(25, 53, 37), rgb(92, 212, 128));
+    margin: -21px -8px;
+    color: white;
+    padding: 10px;
+
+}
+
+body{
+
+    background-color: rgb(166, 235, 197);
+
+}
+
+main{
+
+    background-color: white;
+    margin: auto auto 25px auto;
+    width: 800px;
+    padding: 0px 17px 10px 17px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+
+
+h2.navi{
+
+    font-size: 21px;
+    font-weight:lighter;
+    padding: 15px;
+    text-align: center;
+
+}
+
+a.navi{
+
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    margin-right: 15px;
+    padding: 7px;
+
+}
+
+a.navi:hover{
+
+    background-image:linear-gradient(360deg,rgb(25, 53, 37), rgb(92, 212, 128));
+    padding: 7px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+
+}
+
+h1.droid{
+
+    font-family: 'droid';
+    color: rgb(5, 80, 5);
+    padding-top: 20px;
+
+
+}
+
+
+h2.droid{
+
+    font-family: 'droid';
+    color: rgb(5, 80, 5);
+    background-image: linear-gradient(90deg, rgba(92, 212, 142, 0.705), white );
+    margin-bottom: 7px;
+
+}
+
+
+span.para{
+
+    padding-left: 20px;
+
+}
+
+a.text{
+
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+div.vid{
+    
+    text-align: center;
+    background-color: rgb(43, 73, 43);
+    padding: 20px;
+    margin: -17px;
+}
+
+footer{
+    color: rgb(104, 173, 144);
+    background-color: rgb(9, 65, 9);
+    text-align: center;
+    padding: 6px;
+    margin: -10px;
+
+}
+
+footer > p{
+
+    margin: 0;
+
+}
+
+span.creator{
+
+    color: white;
+
+}
+
+article.list{
+    margin-top: 0;
+    background-color:rgb(163, 207, 183);
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+h3{
+
+    background-color: rgb(51, 168, 104);
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: 500;
+
+}
+
+div.topvid{
+
+    margin-bottom: 35px;
+
+}

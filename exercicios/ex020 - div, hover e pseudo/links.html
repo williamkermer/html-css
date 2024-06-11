@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        /*
+            #  = id         
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        
+        */
+
+
+        body{
+
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        a{
+
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+
+            color: blue;
+        }
+
+        a:hover{
+
+            text-decoration: underline;
+            color: black;
+
+        }
+
+        a:active{
+
+            color: rgb(255, 0, 212);
+
+        }
+
+        a::after{
+
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: dimgray;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/williamkermer21/">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/kmr.will/">Instagram</a></li>
+        <li><a href="https://github.com/William-Kermer">Github</a></li>
+
+
+    </ul>
+</body>
+</html>
