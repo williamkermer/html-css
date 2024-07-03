@@ -9,10 +9,16 @@
 
         #tela{
             
-        width: 92vh;
+        width: 100%;
         border: 2px solid black;
         height: 400px;
-    }
+        
+        }
+
+        div{
+        min-width: 320px;
+        max-width: 92vh;
+        }
 
     </style>
 </head>
@@ -30,7 +36,9 @@
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quis omnis. Facilis ipsa hic modi voluptatem, quaerat unde optio cum quidem animi quasi esse rerum recusandae in rem laboriosam sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel quo amet fugiat quas repudiandae optio similique sunt voluptatem, adipisci, error aliquid. Unde eaque enim sunt. Nisi natus mollitia id!</p>
 
-    <iframe id="tela" name="frame" src=""><p>Infelizmente seu navegador é incompativel com isso</p></iframe>
+    <div><iframe id="tela" name="frame" src="paginas-extras/PagIni.html"><p>Infelizmente seu navegador é incompativel com isso</p></iframe></div>
+
+    <!-- é possivel a utilização da feature "srcdoc" no lugar de apenas "src", que por sua fez permite criar html dentro do proprio iframe, sem a necessidade de criar outra pagina -->
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut facilis, sunt delectus minus nam voluptatem in quisquam iure maxime provident ipsa praesentium eveniet aliquid ab. Est ab vel hic! Non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste beatae officia, laborum rerum velit modi exercitationem error pariatur nulla quos esse illo harum ea deleniti nostrum cum architecto. Quae.</p>
 </body>
