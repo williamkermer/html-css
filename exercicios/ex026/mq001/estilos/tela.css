@@ -31,6 +31,13 @@ header h1{
 
 }
 
+h2{
+
+    padding: 15px;
+    text-decoration: underline;
+
+}
+
 menu ul{
 
     list-style-type: none;
