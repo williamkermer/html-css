@@ -49,7 +49,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
 
 
@@ -59,6 +58,7 @@ section#login{
     border-radius: 17px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     
+    transform: translate(-50%,-50%);
     transition: width .7s, height .7s;
     transition-timing-function: ease;
 
@@ -92,7 +92,7 @@ div#formulario h1{
 div#formulario > p{
 
     font-size: 0.8em;
-
+    text-align: center;
 }
 
 form > div.campo{
@@ -129,10 +129,10 @@ div.campo > input{
     font-size: 1em;
     width: calc(100% - 44.358px);
     height: 100%;
-    transform: translateY(-12.6px);
     border: 0px;
     border-radius: 7px;
     padding: 4px;
+    transform: translateY(-12.6px);
 }
 
 div.campo > input:focus-within{
